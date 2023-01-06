@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    font-family:sans-serif;
+    /* background-color: rgba(0, 145, 255, 0.35); */
+}
+
+nav{
+display: flex;
+justify-content: space-between; 
+font-size: 30px;
+font-weight: 200;
+margin: 50px 200px;
+}
+
+.nav-title{
+font-size: 40px;
+font-weight: 700;
+}
+
+.btn-primary{
+color: black;
+background-color: orangered;
+font-size: 30px;
+font-weight: 200;
+border: 0;
+padding: 10px;
+border-radius: 5px;
+}
+
+.text-primary{
+    color: orangered;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* header banner styles */
+
+.header{
+    background: #fff;
+    background-image: url('../images/header_bg.png'), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.banner{
+    align-items: center;
+    margin: 0 200px;
+    display: flex;
+}
+
+.banner-subtitle{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.banner-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.banner-des{
+font-size: 18px;
+color: #474744;
+margin-bottom: 20px;
+}
+
+.img{
+    align-items: left;
+}
+
+/* about section */
+.about{
+margin-top: 130px;
+background-color: #fff8f3;
+padding: 130px 150px;
+text-align: center; 
+border-radius: 10px;
+/* i think this border-radius is important */
+/* text-align: justify; */
+}
+
+.section-title{
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.section-des{
+font-size: 18px;
+font-weight: 200;
+margin-bottom: 30px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+
+ .about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-des {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+/* what i do style */
+.what-i-do{
+    margin: 130px;
+}
+
+.skills-container{
+    display: flex;
+    /* justify-content: space-around; */
+gap: 24px;
+box-shadow: 0px 6px 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.skill-title{
+margin-top: 10px;
+gap: 5px;
+margin-bottom: 20px;
+font-size: 15px;
+}
+
+.skill-des{
+font-size: 20px;
+font-weight: 300;
+color: #474744;
+}
+
+/*.skill{
+    box-shadow: 0px 6px 50px;
+    border-radius: 5px;
+    padding: 10px;
+}*/
+/* i can also do this thing to copy  from skill class and paste it in skills-container , it looks like s different box from my before portfolio */
